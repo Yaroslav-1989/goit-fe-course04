@@ -215,7 +215,6 @@ header nav li:last-child {
 .products .container {
 	width: 1137px;
 	height: 840px;
-	border: 1px solid red;
 }
 
 .products .products_list {
@@ -285,17 +284,72 @@ header nav li:last-child {
 
 .news .container2 {
 	width: 1110px;
-	height: 648px;
-	margin: 0 auto;
+	height: auto;
+	margin-top: 108px;
+	margin: 106px auto;
 	min-height: 30px;
-	border: 1px solid green;
 }
 
-.news .news_list li {
-	float: left;
+.news_list {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+.news li {
 	width: 350px;
-	height: 496px;
-	margin: 0 11px 28px 13px;
-	background-color: rgb(233, 240, 253);
+    height: auto;
+    display: inline-block;
 }
 
+.img2 {
+	width: 350px;
+	height: 262px;
+}
+
+.news_block1 {
+	margin: 86px 30px 0 0;
+}
+
+.news_block2 {
+	margin: 86px 30px 0 0;
+}
+
+.news_block3 {
+	margin: 86px 0 0 0;
+}
+
+.news2 {
+	color: #515151;
+	font-size: 18px;
+	line-height: 32px;
+	margin: 0 0 30px 0;
+	font-family: 'Roboto-Black';
+}
+
+.news2:after {
+	content: '';
+	height: 3px;
+	width: 136px;
+	display: block;
+	margin: 0;
+	position: relative;
+	background: #1abc9c;
+}
+
+.p {
+	font-size: 14px;
+}
+
+.button {
+    margin-top: 18px;
+    margin-bottom: 82px;
+    margin-left: 0px;
+    margin-right: auto;
+    width: 160px;
+    height: 50px;
+	font-size: 16px;
+	background-color: rgb(78, 198, 171);
+	border-radius: 7px;
+	
+}
