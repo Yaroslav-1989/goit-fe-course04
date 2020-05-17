@@ -290,11 +290,18 @@ header nav li:last-child {
 	min-height: 30px;
 }
 
+.news .news_list {
+	width: 100%;
+
+	padding: 30px 0 0 0;
+}
+
 .news_list {
     padding: 0;
     margin: 0;
     font-size: 0;
 }
+
 
 .news li {
 	width: 350px;
@@ -308,15 +315,15 @@ header nav li:last-child {
 }
 
 .news_block1 {
-	margin: 86px 30px 0 0;
+	margin: 0px 30px 0 0;
 }
 
 .news_block2 {
-	margin: 86px 30px 0 0;
+	margin: 0px 30px 0 0;
 }
 
 .news_block3 {
-	margin: 86px 0 0 0;
+	margin: 0 0 0 0;
 }
 
 .news2 {
@@ -350,6 +357,6 @@ header nav li:last-child {
     height: 50px;
 	font-size: 16px;
 	background-color: rgb(78, 198, 171);
-	border-radius: 7px;
-	
+	color: rgb(255, 255, 255);
+	border-radius: 7px;	
 }
